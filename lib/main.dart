@@ -1,4 +1,4 @@
-import 'package:device_preview/device_preview.dart';
+// import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:student_app/Utils/routing_generator.dart';
@@ -9,16 +9,16 @@ void main() {
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
 
-  runApp(
-    DevicePreview(
-      builder: (context) => const MyApp(),
-      enabled: true,
-      tools: const [
-        ...DevicePreview.defaultTools,
-      ],
-    ),
-  );
-  // runApp(const MyApp());
+  // runApp(
+  //   DevicePreview(
+  //     builder: (context) => const MyApp(),
+  //     enabled: true,
+  //     tools: const [
+  //       ...DevicePreview.defaultTools,
+  //     ],
+  //   ),
+  // );
+  runApp(const MyApp());
 }
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();

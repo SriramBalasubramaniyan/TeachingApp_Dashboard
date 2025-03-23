@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   provider: ^6.1.1
-  device_preview: ^1.2.0
+#  device_preview: ^1.2.0
   fl_chart: ^0.66.1
 
 dev_dependencies:
